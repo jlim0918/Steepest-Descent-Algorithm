@@ -1,0 +1,32 @@
+COMPREHENSIVE INPUT FILE
+----This section will test loading functionality----
+-s
+l
+normal.txt
+f
+Amoghus the TA
+l
+0
+l
+i miss the old kanye
+l
+normal2.txt
+f
+c
+f
+r
+l
+normal.txt
+----This section will test run with default parameters----
+r
+d
+x
+l
+normal2.txt
+x
+d
+r
+x
+d
+c
+q

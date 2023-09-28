@@ -1,0 +1,86 @@
+COMPREHENSIVE INPUT FILE
+----This section will test loading functionality----
+l
+TEST.txt
+f
+polys.txt
+l
+0
+l
+i miss the old kanye
+l
+test3.txt
+f
+c
+f
+r
+l
+test1.txt
+l
+0
+----This section will test run with default parameters----
+r
+d
+x
+l
+TEST.txt
+r
+d
+x
+c
+l
+polys.txt
+r
+d
+x
+----This section will test run with parameters being changed----
+s
+0
+0
+0
+p
+s
+0.05
+0.001
+150
+0
+0.5
+0.1
+0.5
+20
+0.001
+125
+2
+-2
+2
+2.1
+1
+the flesh of fallen angels
+0.005
+0.001
+200
+3.5
+d
+x
+p
+r
+d
+x
+----This section will test convergence errors for Armijo----
+s
+0
+10000
+0.001
+0.9
+2
+0.001
+100
+0.5
+0
+r
+d
+x
+---THE END---
+q
+
+
